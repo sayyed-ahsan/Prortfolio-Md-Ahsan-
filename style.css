@@ -241,7 +241,7 @@ section .title::after {
 
 .home .home-content a {
     display: inline-block;
-    background: rgb(44, 214, 220);
+    background: none;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
@@ -253,8 +253,9 @@ section .title::after {
 }
 
 .home .home-content a:hover {
-    color: rgb(44, 214, 220);
-    background: none;
+    color: rgb(0, 0, 0);
+
+    background: rgb(44, 214, 220);
 }
 
 /* about section styling */
